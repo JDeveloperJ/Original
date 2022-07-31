@@ -1,9 +1,9 @@
 print("Ingresa una cadena para retornar la cadena invertida")
 
-cadena = input("Ingresa")
+cadena = input("Ingresa la cadena que deseas invertir")
 
 cadenainvert =""
 for letra in cadena:
     cadenainvert = letra + cadenainvert
 
-print(cadenainvert)
+print("La cadena invertida es :", cadenainvert)
