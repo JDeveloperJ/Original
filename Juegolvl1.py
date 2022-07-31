@@ -1,4 +1,4 @@
-print("Bienvenido")
+print("----------------Bienvenido-------------")
 print("En este programa podras calcular el tu promedio final de curso")
 
 practica1 = int(input("Ingresa la nota de tu primera practica"))
@@ -20,6 +20,7 @@ promedioppa = (parcial1 + parcial2)/2
 promediofinal = (promedioppa * 0.5) + (promedioppc * 0.4) + (np * 0.1)
 
 if promediofinal > 11:
+    print("¡¡¡Felicidades!!!")
     print("Has aprobado el curso con una nota de " , promediofinal)
 else:
     print("Has desaprobado el curso con una nota de ", promediofinal)
