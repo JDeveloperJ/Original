@@ -1,3 +1,4 @@
+print("Bienvenido")
 print("Ingresa un caracter para ver si es una vocal")
 caracter = input()
 
